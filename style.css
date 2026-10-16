@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+body {
+ background: white; 
+    color:#111;
+ }
+nav {
+     display:flex;
+      justify-content:space-between;
+       align-items:center;
+        padding:20px 60px;
+     }
+.logo {
+     font-weight:800;
+      font-size:28px; 
+      letter-spacing:-2px;
+     }
+.links a { 
+     margin:0 15px;
+     text-decoration:none;
+      color:#111; 
+      font-weight:500; 
+    }
+.nav-btn {
+     padding:10px 20px;
+      border-radius:20px; 
+      border:1px solid #111;
+       background:transparent;
+        cursor:pointer;
+     }
+.hero {
+     display:flex;
+      align-items:center;
+       justify-content:space-between; 
+       padding:40px 60px; gap:40px; 
+       min-height:90vh; 
+    }
+.badge {
+     background:#e9e3ff; 
+    padding:6px 14px;
+     border-radius:20px;
+      font-size:12px; 
+    }
+.hero-text h1 { 
+    font-size:80px; 
+    line-height:0.9; 
+    font-weight:900; 
+    margin:20px 0; 
+    letter-spacing:-3px; 
+}
+.hero-text p {
+     color:#666; 
+     max-width:400px; 
+     margin-bottom:20px; 
+    }
+.btns {
+     display:flex; 
+     gap:15px; 
+     margin:20px 0; 
+    }
+.primary {
+     background:#111; 
+     color:white; 
+     padding:14px 28px; 
+     border-radius:30px; 
+     border:none; 
+     cursor:pointer; 
+    }
+.secondary {
+     background:white; 
+     padding:14px 28px; 
+     border-radius:30px; 
+     border:1px solid #ddd; 
+     cursor:pointer; 
+    }
+.stats {
+     display:flex; 
+     gap:30px; 
+     margin-top:30px; 
+    }
+.stats strong {
+     font-size:24px; 
+    }
+.hero-image {
+     position:relative; 
+     width:50%; 
+    }
+.hero-image img {
+     width:100%; 
+     border-radius:30px; 
+     object-fit:cover; 
+     height:600px; 
+    }
+.float-card {
+     position:absolute;
+      bottom:20px;
+       left:-20px; 
+       background:white; 
+       padding:15px 20px; 
+       border-radius:15px; 
+       box-shadow:0 10px 30px rgba(0,0,0,0.1); 
+       font-weight:600; 
+    }
